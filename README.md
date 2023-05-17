@@ -18,15 +18,18 @@ The raw data is accessible through the Center for Open Science’s data portal l
 
 There are six classes and one healthy control:
 
-  Condition:                          Number of patients: 
+    Condition:                          Number of patients: 
 
-Mood disorder                         266
-Addictive disorder                    186
-Trauma and stress related disorder    128
-Schizophrenia                         117
-Anxiety disorder                      107
-Healthy control                        95
-Obsessive compulsive disorder          46
+    Mood disorder                         266
+    Addictive disorder                    186
+    Trauma and stress related disorder    128
+    Schizophrenia                         117
+    Anxiety disorder                      107
+    Healthy control                        95
+    Obsessive compulsive disorder          46
+    
+![Psychiatric_Classes](https://github.com/JM-Hansen/capstone/assets/104652254/80352161-d959-4e1d-a04a-bfe332a71ea7)
+
 
 ### First simple model results
 
