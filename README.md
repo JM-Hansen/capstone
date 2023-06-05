@@ -47,14 +47,27 @@ There are six classes and one healthy control:
 1. Load modeling packages --> 2. Access and download the data --> 3. Exploratory Data Analysis --> 4. Preprocessing data for modeling --> 5. Multiclassification modeling --> 6. Binary Classification modeling --> 7. Model Summary and Accuracy Scores -->
 8. Recommendations 
 
+### Exploratory Data Analysis
+
+Six major disorders broken down by age, revealing both age distribution and distribution of disorders within each age range.
+
+![disorders_age-Copy1](https://github.com/JM-Hansen/capstone/assets/104652254/81f7cd08-b08f-4901-813e-35c1d95e1ebf)
+
+Gamma brain waves emerge during problem solving activities. In the parietal lobe of the brain, responsible for spatial reasoning and awareness, gamma waves are much higher in those with a mood disorder compared to healthy control. 
+
+![mood_gamma_parietal-Copy1](https://github.com/JM-Hansen/capstone/assets/104652254/ef9cebd5-6b39-4a7c-b739-65371afa1259)
+
+Gamma waves are much more closely distributed between those with schizophrenia and healthy control suggesting it may be more difficult to accurately identify some disorders. 
+
+![schiz_gamma_parietal-Copy1](https://github.com/JM-Hansen/capstone/assets/104652254/b0a635fb-68c6-4a86-a7a4-12df573145aa)
 
 ### Model Summary 
 
 #### Findings for Multiclassification 
 
-   Multiclassification models using both random forest and XGBoost models consistently improved in overall accuracy but not to the points where the model could be useful. The models consistently scored Mood disorder higher. Addictive disorder was often confused with mood disorder, about one out of every three predictions for mood was misclassified as addictive. Addictive disorder was dropped from the entire dataset and multiclassification modeling was run again. This improved scores somewhat but not to the point where the model could be used in a clinical or medical research setting. Greater quantity and greater diversity of EEG data is needed for further multiclassification modeling. 
+   Multiclassification models using both random forest and XGBoost models consistently improved in overall accuracy but not to the point where the model could be useful. The models consistently scored Mood disorder higher. Addictive disorder was often confused with mood disorder, about one out of every three predictions for mood was misclassified as addictive. Addictive disorder was dropped from the entire dataset and multiclassification modeling was run again. This improved scores somewhat but not to the point where the model could be used in a clinical or medical research setting. Greater quantity and greater diversity of EEG data is needed for further multiclassification modeling. 
     
-   Schizophrenia, anxiety, and trauma were difficult to tease out, likely given that they looked so much  like other disorders based on exploratory data analysis. We do not have data on whether the patients in our data suffered from more than one disorder such as a mood disorder along with trauma disorder. Given that mental health conditions often overlap in the same individual this makes for potentially more noise in the data. 
+   Schizophrenia, anxiety, and trauma were difficult to tease out, likely given that they looked so much  like other disorders based on exploratory data analysis. We do not have data on whether the patients in our data suffered from more than one disorder such as a mood disorder along with another disorder, such as trauma disorder. Given that mental health conditions often overlap in the same individual this makes for potentially more noise in the data. 
     
     Final multiclassification results using XGBoost:
     
