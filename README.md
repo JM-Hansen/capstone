@@ -1,5 +1,5 @@
-# capstone
-Flatiron Phase 5 Capstone project
+# EEG Readings and Psychiatric Disorder Categorization
+
 
 ### Business Understanding
 
